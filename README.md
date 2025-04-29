@@ -17,3 +17,18 @@ The models trained and evaluated for this project are
 - XGBoost
 
 SHAP and LIME has been utlized for model explainability.
+
+# Application
+
+A simple streamlit web application is created that allows users to detect parkinson's disease using the 22 input voice features utilized in this ML model. The user has the ability to enter the values of each feature and detect the disease presence.
+
+Future Enhancements:
+
+- Enabling users to chose one of the two options of manual data entry and csv file upload, for disease detection.
+- Deployment of the application.
+
+To execute the application locally, enter the following command in your terminal,
+
+```bash
+streamlit run app.py
+```
